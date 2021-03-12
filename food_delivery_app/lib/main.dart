@@ -13,9 +13,23 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         scaffoldBackgroundColor: Colors.grey[50],
         primaryColor: Colors.deepOrangeAccent,
+        textTheme: ThemeData.light().textTheme.copyWith(
+              headline1: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  fontSize: 22,
+                  color: Colors.white),
+              headline2: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  fontSize: 20,
+                  color: Colors.purple),
+              headline3: TextStyle(
+                  fontSize: 18,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.white),
+              bodyText1: TextStyle(fontSize: 20),
+            ),
       ),
-     home: HomeScreen(),
+      home: HomeScreen(),
     );
   }
 }
-
