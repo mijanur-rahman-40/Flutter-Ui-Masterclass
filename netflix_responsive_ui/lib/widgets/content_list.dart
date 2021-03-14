@@ -51,9 +51,7 @@ class ContentList extends StatelessWidget {
                         ),
                         fit: BoxFit.cover,
                       ),
-                      borderRadius: BorderRadius.all(
-                        Radius.circular(10.0),
-                      ),
+                      borderRadius: BorderRadius.circular(10.0),
                     ),
                   ),
                 );
