@@ -22,7 +22,7 @@ class CreatePostContainer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: const EdgeInsets.fromLTRB(12.0, 8.0, 12.0, 0.0),
+      padding: const EdgeInsets.fromLTRB(12.0, 5.0, 12.0, 0.0),
       color: Colors.white,
       child: Column(
         children: [
@@ -49,10 +49,10 @@ class CreatePostContainer extends StatelessWidget {
               )
             ],
           ),
-          const Divider(height: 20.0, thickness: 0.5),
+          const Divider(height: 15.0, thickness: 0.5),
           Container(
             height: 40.0,
-            // margin: const EdgeInsets.only(bottom: 5),
+            margin: const EdgeInsets.only(bottom: 8),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
