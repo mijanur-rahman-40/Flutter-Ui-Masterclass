@@ -4,7 +4,7 @@ import '../models/models.dart';
 final User currentUser = User(
   name: 'Marcus Ng',
   imageUrl:
-      'https://images.unsplash.com/photo-1578133671540-edad0b3d689e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80',
+      'https://lh3.googleusercontent.com/a-/AAuE7mDN_PMoTlp7uU78N9aYEYLSfqym08z9Rz924qW1Ig=k-s328',
 );
 
 final List<User> onlineUsers = [
