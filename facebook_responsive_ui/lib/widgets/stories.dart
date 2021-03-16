@@ -22,7 +22,7 @@ class Stories extends StatelessWidget {
       color: Colors.white,
       child: ListView.builder(
         scrollDirection: Axis.horizontal,
-        padding: const EdgeInsets.symmetric(vertical: 10.0, horizontal: 8.0),
+        padding: const EdgeInsets.symmetric(vertical: 8.0, horizontal: 8.0),
         itemCount: 1 + stories.length,
         itemBuilder: (context, index) {
           if (index == 0) {
