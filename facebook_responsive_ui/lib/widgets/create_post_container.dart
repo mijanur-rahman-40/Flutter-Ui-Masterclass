@@ -34,8 +34,10 @@ class CreatePostContainer extends StatelessWidget {
                 child: TextField(
                   obscureText: true,
                   decoration: InputDecoration(
-                    contentPadding:
-                        EdgeInsets.symmetric(vertical: 10.0, horizontal: 10.0),
+                    contentPadding: EdgeInsets.symmetric(
+                      vertical: 10.0,
+                      horizontal: 10.0,
+                    ),
                     fillColor: Colors.grey[200],
                     filled: true,
                     hintText: 'What\'s on your mind?',
